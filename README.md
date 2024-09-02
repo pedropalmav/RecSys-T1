@@ -7,6 +7,7 @@ Code for the first assignment of the course IIC3633 - Recommender Systems
 During august we should work in:
 
 1. Dataset desription (train, validation)
+    Overleaf Data Analysis: https://www.overleaf.com/7823929961fvdbvxkyypgf#6ccb79
 2. Rating Prediction
     1. iKNN, uKNN
     2. FunkSVD
