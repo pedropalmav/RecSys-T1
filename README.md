@@ -1,25 +1,12 @@
 # RecSys-T1
-Code for the first assignment of the course IIC3633 - Recommender Systems
 
-## Teacher's Recommendation
+El siguiente repositorio posee la siguiente estructura:
 
+- `data/`: Contiene todos los datos utilizados para entrenar y validar los modelos, además de un jupyter en el cuál se hace el análisis de los datos.
+- `docs/`: Contiene el enunciado de la tarea y el informe.
+- `models/`: Contiene todos los modelos de recomendación.
+- `predictions`: Cotiene todas las predicciones para el bonus.
+- `templates/`: Contiene los templates para rellenar con las predicciones para el bonus.
 
-During august we should work in:
-
-1. Dataset desription (train, validation)
-    Overleaf Data Analysis: https://www.overleaf.com/7823929961fvdbvxkyypgf#6ccb79
-2. Rating Prediction
-    1. iKNN, uKNN
-    2. FunkSVD
-    3. SVD++ (optional)
-
-During september we should work in:
-
-3. Ranking Prediction
-    1. iKNN
-    2. FunkSVD
-    3. ALS
-    4. BPR
-    5. Factorization Machines
-
-    
+> [!NOTE]
+> El modelo de Factorization Machines está pensado para ser ejecutado en google colab, puesto que no funcionó en local. Asimismo, esta implementación es bastante más lenta que las demás.    
